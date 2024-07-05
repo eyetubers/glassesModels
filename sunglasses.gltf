@@ -1,0 +1,326 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1936,
+      "max": [
+        48.74625015258789,
+        238.28097534179688,
+        15.208423614501953
+      ],
+      "min": [
+        -48.62810134887695,
+        -7.3521728515625,
+        -9.91227912902832
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 23232,
+      "componentType": 5126,
+      "count": 1936,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1936,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7848,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46464,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        40.48831558227539,
+        -3.9054794311523438,
+        14.398614883422852
+      ],
+      "min": [
+        -40.57768249511719,
+        -3.9055862426757813,
+        -9.101568222045898
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 47616,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        9.796262929739896e-07,
+        1.0,
+        2.2781857751397183e-06
+      ],
+      "min": [
+        1.6865453034142774e-08,
+        -1.0,
+        -2.81953674630131e-07
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15488,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 31392,
+      "componentType": 5125,
+      "count": 276,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Pacheco2099 (https://sketchfab.com/Pacheco2099)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/sunglasses-2e4a9f9bc3fe4e8ab622907dae33f0f1",
+      "title": "Sunglasses"
+    },
+    "generator": "Sketchfab-16.14.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 32496,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16256,
+      "byteOffset": 32496,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48768,
+      "byteOffset": 48752,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 97520,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Armazon",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0293412,
+          0.0293412,
+          0.0293412,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9923425536126803
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.38247735612146627
+        }
+      },
+      "name": "Cristal.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0024430386225938973,
+          0.0024430386225938973,
+          0.0024430386225938973,
+          1.0
+        ],
+        "metallicFactor": 0.21790542599748874,
+        "roughnessFactor": 0.0016301889188710616
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lentes_Armazon_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Lentes_Cristal.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "4e91240593454559899e1e6417a2e686.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        -2.061901092529273,
+        2.1312874743226135e-14,
+        -3.1133840312716454e-07,
+        0.0,
+        7.731686384981516e-08,
+        1.607398208453469e-07,
+        -0.512046456336944,
+        0.0,
+        9.830569872812883e-14,
+        -2.6523549556730868,
+        -8.326179294205034e-07,
+        0.0,
+        0.28269290924072266,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Lentes"
+    },
+    {
+      "mesh": 0,
+      "name": "Lentes_Armazon_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Lentes_Cristal.001_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
